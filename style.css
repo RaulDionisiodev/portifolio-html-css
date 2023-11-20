@@ -13,3 +13,10 @@ body{
 .titulo-destaque{
     color: #22D4FD;
 }
+
+.apresentacao {
+    display: flex;
+    justify-content: space-between; /*Distribui os itens filhos de maneira unforme na linha*/
+    align-items: center; /*Alinha os itens entre sí. Conforme o maior elemento*/
+    margin: 10%;
+}
