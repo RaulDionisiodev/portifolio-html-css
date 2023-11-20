@@ -4,6 +4,8 @@
 }
 
 body{
+    height: 100vh; /*o conteúdo vai ocupar 100% da tela*/;
+    box-sizing: border-box; /*Mantém o conteúdo de elementos filhos sempre dentro do elemento pai*/
     background-color: #000000;
     color: #F6F6F6;
 }
