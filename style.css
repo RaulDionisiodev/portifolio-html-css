@@ -22,11 +22,14 @@ body{
     display: flex;
     justify-content: space-between; /*Distribui os itens filhos de maneira unforme na linha*/
     align-items: center; /*Alinha os itens entre sí. Conforme o maior elemento*/
-    margin: 10%;
+    margin: 10% 15%;
 }
 
 .apresentacao__conteudo {
     width: 615px ;/*largura*/
+    display: flex;
+    flex-direction: column;
+    gap: 40px; /*Diz qual o espaçamemto entre os elementos filhos*/
 }
 
 .apresentacao__conteudo__titulo {
